@@ -1,0 +1,90 @@
+body {background-color: #F5F5F5;  box-shadow: 0 -3px 15px #999999;font-family:"Lato",sans-serif; font-size:17px; color:#3A4655; line-height:1.5;width: 960px;margin: auto;}
+h1,h2,h3,h4,h5,h6{font-family:"Roboto",sans-serif !important;}
+a{text-decoration: none;color: #275E8F;}
+a:link, a:visited {text-decoration: none;}
+.logo{text-align: center}
+.form-search{float:right}
+.quick-access .links{margin-right: 20px;text-align: right;}
+.quick-access .links li{display: inline;}
+.form-language{float:right}
+.home-callout{display: none}
+.block-tags{clear:both;margin-top:20px }
+#nav span{color:#275E8F;}
+#nav {
+    margin: 50px;
+    z-index: 10;
+    display: block;
+   
+}
+.nav-1,.nav-2,.nav-3{list-style: none !important}
+#nav li { float: left; }
+#nav li:hover { position: relative }
+
+#nav li:hover > a {
+    background: #021A1A;
+
+    box-shadow: 5px 5px 25px #000;
+    -moz-box-shadow: 5px 5px 25px #000;
+    -webkit-box-shadow: 5px 5px 25px #000;
+
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+#nav li.sub:hover > a {
+    border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+}
+
+#nav li a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px;
+    display: block;
+}
+#nav li a:hover { background-color: #021A1A; }
+
+#nav li ul {
+    background: #fff;
+    margin-top: -2px;
+    display: none;
+}
+#nav li:hover ul {
+    display:block;
+    position:absolute;
+}
+
+#nav li ul {
+    background: rgba(255,255,255,0.5);
+    padding: 10px 5px;
+
+    box-shadow: 5px 5px 25px #000;
+    -moz-box-shadow: 5px 5px 25px #000;
+    -webkit-box-shadow: 5px 5px 25px #000;
+
+    border-radius: 0px 15px 15px 15px;
+    -moz-border-radius: 0px 15px 15px 15px;
+    -webkit-border-radius: 0px 5px 5px 5px;
+}
+#nav li ul li a, #nav li ul li a:hover {
+    background: transparent;
+    color: #000;
+    width: 150px;
+    font-size: 0.95em;
+    font-weight: normal;
+}
+#nav li ul li a:hover { text-decoration: underline;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+.footer{text-align: center}
+.footer ul{width:200px;list-style: none}
+.links{clear:both}
